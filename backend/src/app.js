@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser"
 const app=express()
 const allowedOrigin=[
     "http://localhost:5173",
-    "https://jee-main-mock-test.vercel.app"
+    "https://my-portfolio-mu-rosy-syrgo6xhwu.vercel.app"
 ]
 app.use(cors({
         origin:allowedOrigin,

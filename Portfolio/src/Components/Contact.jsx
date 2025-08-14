@@ -25,7 +25,7 @@ export const Contact = () => {
     }
     try {
       const res = await axios.post(
-        'http://localhost:5000/api/v1/clients/register',
+        'https://my-portfolio-8shd.onrender.com/api/v1/clients/register',
         formData
       );
       console.log('Client Successfully registered', res.data);
