@@ -4,87 +4,81 @@ import { SiC, SiCplusplus, SiTailwindcss, SiExpress, SiMongodb, SiPostman, SiJso
 
 export const Skill = () => {
   return (
-    <div className="py-10 px-4 text-white">
-      <h1 className="text-3xl font-bold text-center mb-8">My Skills</h1>
+    <div className="py-10 px-4 sm:px-6 text-white">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8">My Skills</h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10 justify-items-center text-center">
-        {/* Existing Skills */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 sm:gap-10 justify-items-center text-center">
         <div>
-          <FaHtml5 className="text-orange-600 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">HTML</p>
+          <FaHtml5 className="text-orange-600 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">HTML</p>
         </div>
         <div>
-          <FaCss3Alt className="text-blue-600 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">CSS</p>
+          <FaCss3Alt className="text-blue-600 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">CSS</p>
         </div>
         <div>
-          <FaJs className="text-yellow-400 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">JavaScript</p>
+          <FaJs className="text-yellow-400 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">JavaScript</p>
         </div>
         <div>
-          <FaReact className="text-cyan-400 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">React.js</p>
+          <FaReact className="text-cyan-400 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">React.js</p>
         </div>
         <div>
-          <SiTailwindcss className="text-sky-400 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">Tailwind</p>
+          <SiTailwindcss className="text-sky-400 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">Tailwind</p>
         </div>
         <div>
-          <FaGitAlt className="text-orange-400 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">Git</p>
+          <FaGitAlt className="text-orange-400 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">Git</p>
         </div>
         <div>
-          <FaGithub className="text-gray-700 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">GitHub</p>
+          <FaGithub className="text-gray-700 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">GitHub</p>
         </div>
         <div>
-          <SiC className="text-white text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">C</p>
+          <SiC className="text-white text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">C</p>
         </div>
         <div>
-          <SiCplusplus className="text-blue-400 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">C++</p>
+          <SiCplusplus className="text-blue-400 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">C++</p>
         </div>
         <div>
-          <FaJava className="text-red-600 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">Java</p>
-        </div>
-
-        {/* New Skills */}
-        <div>
-          <FaNodeJs className="text-green-600 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">Node.js</p>
+          <FaJava className="text-red-600 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">Java</p>
         </div>
         <div>
-          <SiExpress className="text-gray-300 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">Express.js</p>
+          <FaNodeJs className="text-green-600 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">Node.js</p>
         </div>
         <div>
-          <SiMongodb className="text-green-500 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">MongoDB</p>
+          <SiExpress className="text-gray-300 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">Express.js</p>
         </div>
         <div>
-          <FaDatabase className="text-indigo-500 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">SQL</p>
+          <SiMongodb className="text-green-500 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">MongoDB</p>
         </div>
         <div>
-          <SiPostman className="text-orange-500 text-6xl hover:scale-110 transition" />
-          <p className="mt-2 text-lg">Postman</p>
+          <FaDatabase className="text-indigo-500 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">SQL</p>
         </div>
-
-        {/* JWT centered */}
-        <div className="md:col-span-5 flex justify-center">
+        <div>
+          <SiPostman className="text-orange-500 text-4xl sm:text-6xl hover:scale-110 transition" />
+          <p className="mt-2 text-base sm:text-lg">Postman</p>
+        </div>
+        <div className="col-span-full sm:col-span-5 flex justify-center">
           <div>
-            <SiJsonwebtokens className="text-yellow-500 text-6xl hover:scale-110 transition" />
-            <p className="mt-2 text-lg">JWT</p>
+            <SiJsonwebtokens className="text-yellow-500 text-4xl sm:text-6xl hover:scale-110 transition" />
+            <p className="mt-2 text-base sm:text-lg">JWT</p>
           </div>
         </div>
       </div>
 
-      {/* Coursework */}
-      <div className="w-full max-w-3xl mx-auto mt-12 p-6 rounded-xl bg-gradient-to-r shadow-lg">
-        <h1 className="text-center text-4xl font-extrabold text-white mb-6">Coursework</h1>
-        <ul className="list-inside text-center space-y-4 text-lg sm:text-2xl text-white font-medium">
+      <div className="w-full max-w-3xl mx-auto mt-12 p-4 sm:p-6 rounded-xl bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg">
+        <h1 className="text-center text-3xl sm:text-4xl font-extrabold text-white mb-6">Coursework</h1>
+        <ul className="list-inside text-center space-y-3 sm:space-y-4 text-base sm:text-lg text-white font-medium">
           <li><span className="hover:text-blue-700 transition">Data Structures and Algorithm (DSA)</span></li>
           <li><span className="hover:text-blue-700 transition">Object Oriented Programming (OOPs)</span></li>
           <li><span className="hover:text-blue-700 transition">Database Management System (DBMS)</span></li>
