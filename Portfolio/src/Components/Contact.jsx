@@ -114,7 +114,7 @@ export const Contact = () => {
       <div className="mt-6 text-center">
         <p className="text-gray-500 text-sm">Or email me directly at</p>
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=mayankrouniyar9300@gmail.com&su=Hello%20Mayank&body=Write%20your%20message%here"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=mayankrouniyar9300@gmail.com&su=Hello%20Mayank&body=Write%20your%20message%20here"
           className="text-blue-600 font-medium hover:underline"
         >
           mayankrouniyar9300@gmail.com
